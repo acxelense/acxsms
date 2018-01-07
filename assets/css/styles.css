@@ -1,0 +1,76 @@
+.intro-2 {
+  background: url("../img/bg.jpg")no-repeat center center;
+  background-size: cover;
+}
+
+.top-nav-collapse {
+  background-color: #3f51b5 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #3f51b5 !important;
+  }
+}
+
+.hm-gradient .full-bg-img {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
+  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+}
+
+.card {
+  background: #ffffff;
+}
+
+.md-form .prefix {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.md-form label {
+  color: #d3d3d3;
+}
+
+.card-body hr {
+  border-top: 1.5px solid #795548;
+}
+
+.card-body .brown-gradient {
+  background: linear-gradient(40deg,#bcaaa4,#4e342e);
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+input[type='text']:focus:not([readonly]) + label {
+  color: #795548;
+}
+
+input[type='text']:focus:not([readonly]) {
+  border-bottom: 1px solid #795548;
+  box-shadow: 0 1px 0 0 #795548;
+}
+
+input[type='password']:focus:not([readonly]) + label {
+  color: #795548;
+}
+
+input[type='password']:focus:not([readonly]) {
+  border-bottom: 1px solid #795548;
+  box-shadow: 0 1px 0 0 #795548;
+}
+
+@media (max-width: 740px) {
+  .full-height,
+  .full-height body,
+  .full-height header,
+  .full-height header .view {
+    height: 1040px;
+  }
+}
