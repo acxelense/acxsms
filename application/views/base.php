@@ -2,5 +2,6 @@
 <script type="text/javascript" src="<?php echo assets_url() ?>plugin/js/popper.min.js"></script>
 <script type="text/javascript" src="<?php echo assets_url() ?>plugin/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php echo assets_url() ?>plugin/js/mdb.min.js"></script>
+<script type="text/javascript" src="<?php echo assets_url() ?>js/login.js"></script>
 </body>
 </html>

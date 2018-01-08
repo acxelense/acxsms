@@ -11,4 +11,4 @@
   <link href="<?php echo assets_url() ?>plugin/css/mdb.min.css" rel="stylesheet">
   <link href="<?php echo assets_url() ?>css/styles.css" rel="stylesheet">
 </head>
-<body>
+<body class="fixed-sn indigo-skin">

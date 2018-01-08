@@ -14,31 +14,34 @@
               </div>
             </div>
             <div class="col-md-6 col-xl-5">
-              <div class="card wow fadeInRight" data-wow-delay="0.3s">
-                <div class="card-body">
-                  <div class="form-header blue-gradient">
-                    <h3><i class="fa fa-user mt-2 mb-2"></i> Log in:</h3>
-                  </div>
-                  <div class="md-form">
-                    <i class="fa fa-envelope prefix blue-text"></i>
-                    <input type="text" id="form1" class="form-control">
-                    <label for="form1">Email</label>
-                  </div>
-                  <div class="md-form">
-                    <i class="fa fa-lock prefix blue-text"></i>
-                    <input type="password" id="form2" class="form-control">
-                    <label for="form2">Password</label>
-                  </div>
-                  <div class="text-center">
-                    <button class="btn blue">Log In</button>
-                    <hr class="mb-3 mt-4">
-                    <div><p>OR</p></div>
-                    <div class="inline-ul text-center d-flex justify-content-center">
-                      <button type="button" class="btn btn-blue btn-lg btn-block">Contact Us For More Information</button>
+              <form data-toggle="validator" id="login" role="form">
+                <div class="card wow fadeInRight" data-wow-delay="0.3s">
+                  <div class="card-body">
+                    <div class="form-header blue-gradient">
+                      <h3><i class="fa fa-user mt-2 mb-2"></i> Log in:</h3>
+                    </div>
+                    <div class="md-form">
+                      <i class="fa fa-envelope prefix blue-text"></i>
+                      <input type="text" id="form1" name="email" class="form-control" required>
+                      <div class="help-block with-errors"></div>
+                      <label for="form1">Email</label>
+                    </div>
+                    <div class="md-form">
+                      <i class="fa fa-lock prefix blue-text"></i>
+                      <input type="password" id="form2" name="password" class="form-control" required>
+                      <label for="form2">Password</label>
+                    </div>
+                    <div class="text-center">
+                      <button id="submitBtn" type="button" class="btn blue" onclick="dologin()">Log In</button>
+                      <hr class="mb-3 mt-4">
+                      <div><p>OR</p></div>
+                      <div class="inline-ul text-center d-flex justify-content-center">
+                        <button type="button" class="btn btn-blue btn-lg btn-block">Contact Us For More Information</button>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
