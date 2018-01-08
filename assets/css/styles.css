@@ -8,7 +8,7 @@
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: transparent !important;
+  /*background: transparent !important;*/ /*this sets transparent navbar on init*/
 }
 
 @media (max-width: 768px) {
