@@ -18,9 +18,9 @@
 }
 
 .hm-gradient .full-bg-img {
-  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
-  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
-  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(69, 202, 252, 0.4) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(69, 202, 252, 0.4) 100%)));
+  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(69, 202, 252, 0.4) 100%);
 }
 
 .card {
@@ -37,11 +37,7 @@
 }
 
 .card-body hr {
-  border-top: 1.5px solid #795548;
-}
-
-.card-body .brown-gradient {
-  background: linear-gradient(40deg,#bcaaa4,#4e342e);
+  border-top: 1.5px solid #2196f3;
 }
 
 h6 {
@@ -49,21 +45,21 @@ h6 {
 }
 
 input[type='text']:focus:not([readonly]) + label {
-  color: #795548;
+  color: #2196f3;
 }
 
 input[type='text']:focus:not([readonly]) {
-  border-bottom: 1px solid #795548;
-  box-shadow: 0 1px 0 0 #795548;
+  border-bottom: 1px solid #2196f3;
+  box-shadow: 0 1px 0 0 #2196f3;
 }
 
 input[type='password']:focus:not([readonly]) + label {
-  color: #795548;
+  color: #2196f3;
 }
 
 input[type='password']:focus:not([readonly]) {
-  border-bottom: 1px solid #795548;
-  box-shadow: 0 1px 0 0 #795548;
+  border-bottom: 1px solid #2196f3;
+  box-shadow: 0 1px 0 0 #2196f3;
 }
 
 @media (max-width: 740px) {
