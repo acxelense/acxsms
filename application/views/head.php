@@ -12,8 +12,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <!-- Bootstrap core CSS -->
   <link href="assets/plugin/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
-  <link href="assets/plugin/css/mdb.min.css" rel="stylesheet">
+  <link href="assets/plugin/css/mdb.css" rel="stylesheet">
+  <link href="assets/css/toastr.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="assets/css/styles.css" rel="stylesheet">
+  <script type="text/javascript" src="assets/plugin/js/jquery-3.2.1.min.js"></script>
+
+
 </head>
-<body>
+<body class="fixed-sn indigo-skin" >
